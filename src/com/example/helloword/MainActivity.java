@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.os.Build;
@@ -21,21 +22,24 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-      setContentView(R.layout.activity_main);
+     /* setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
             getFragmentManager().beginTransaction()
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
-        }
-       /* LinearLayout layout=new LinearLayout(this);
+        }*/
+       LinearLayout layout=new LinearLayout(this);
         layout.setOrientation(LinearLayout.VERTICAL);
         TextView tv=new TextView(this);
       tv.setText("试试能不能显示");
+      EditText et=new EditText(this);
+      et.setText("EditText");
       Button but=new Button(this);
       but.setText("然并卵");
+      layout.addView(et);
       layout.addView(tv);
       layout.addView(but);
-      super.setContentView(layout);*/
+      super.setContentView(layout);
     }
 
 
