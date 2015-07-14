@@ -1,1 +1,2 @@
 Time is ok!
+Git is a distributed version control system.
