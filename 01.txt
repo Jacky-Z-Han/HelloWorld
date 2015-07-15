@@ -1,0 +1,4 @@
+Time is ok!
+Git is a distributed version control system.
+My stupid boss still prefers SVN.
+git@github.com:Jacky-Z-Han/HelloWorld.git
