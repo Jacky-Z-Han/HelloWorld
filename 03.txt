@@ -1,0 +1,12 @@
+git init
+add commit -m
+git rm |mv
+git commit
+git chekout -- 
+git reset HEAD file
+git chekout -- file
+git branch dev
+git checkout dev
+git checkout -b dev
+git merge dev
+git branch -d dev  删除分支
